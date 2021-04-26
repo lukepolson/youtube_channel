@@ -10,7 +10,7 @@ To run this Docker image using Docker Desktop (I'm assuming the linux users are 
 2. Open Docker Desktop, go to images, and click run:
 ![Alt text](images/step1.PNG?raw=true "1")
 
-3. Configure with the following settings:
+3. Configure the optional settings as follows:
 
 ![Alt text](images/step1.5.PNG?raw=true "2")
 4. Go to windows powershell, use the command `docker ps -a` to see all running containers and look at the ID. Then use `docker logs <ID>` to get the logs for that container. Copy the token for the jupyter login.
