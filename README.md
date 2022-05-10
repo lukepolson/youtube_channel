@@ -6,7 +6,7 @@ https://hub.docker.com/r/lukepolson/psolver_base
 
 To run this Docker image using Docker Desktop (I'm assuming the linux users are already proficient/can follow this and use terminal commands)
 
-1. Pull the repository using `docker pull lukepolson/psolver_base`. You will need to use windows powershell or a MAC terminal
+1. Pull the repository using `docker pull lukepolson/psolver_base`. You need to use windows powershell or a MAC terminal
 2. Open Docker Desktop, go to images, and click run:
 ![Alt text](images/step1.PNG?raw=true "1")
 
