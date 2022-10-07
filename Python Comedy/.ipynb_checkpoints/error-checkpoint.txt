@@ -1,0 +1,829 @@
+Traceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnn
+Traceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnn
+Traceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnn
+Traceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnn
+Traceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnn
+Traceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnn
+Traceback (most recent call last):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣶⣿⣿⣿⣿⣿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⠿⠟⠛⠻⣿⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣆⣀⣀⠀⣿⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠻⣿⣿⣿⠅⠛⠋⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢼⣿⣿⣿⣃⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣟⡿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣛⣛⣫⡄⠀⢸⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⡆⠸⣿⣿⣿⡷⠂⠨⣿⣿⣿⣿⣶⣦⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣾⣿⣿⣿⣿⡇⢀⣿⡿⠋⠁⢀⡶⠪⣉⢸⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⡏⢸⣿⣷⣿⣿⣷⣦⡙⣿⣿⣿⣿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⣿⣿⣿⣿⣇⢸⣿⣿⣿⣿⣿⣷⣦⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣵⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣼⡟⡀⠀⠀⠀⠀⠁⡴⠋⠉⠉⠙⡧⡄⣆⠀⠀⠀⠀⠀⣠⣯⡇⠀⢀⣴⡶⣿⢍⣄⢄⡀⠀⠀⠀⣶⡆⠀⠀⢀⣤⡖⡀⠀⠀⠀⠀
+⠀⠈⣿⡿⠿⣿⣷⣆⠀⣟⣏⣀⡀⣀⣠⣇⣷⢻⡆⠀⠀⠀⡼⣿⠋⣀⣦⡋⠯⠉⠀⠁⠃⠷⣽⠀⠀⠀⣿⡇⡠⡿⠉⠁⠀⠀⠀⠀⠀⠀
+⠀⠐⣿⠅⠀⠈⠻⣿⡄⣯⡟⠛⠛⠛⠛⠛⠋⠉⣷⠀⠀⡟⡽⠁⢀⢕⡷⣷⣶⣶⣶⣶⡶⠛⠂⠀⠀⠀⣿⡏⠋⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣿⡇⠀⠀⠀⣿⡇⠉⠳⣤⣀⣀⣀⣄⡀⠀⠽⡇⣿⠏⠀⠀⠘⣿⡇⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⡿⡇⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠉⠀⠀⠀⠀⠱⠇⠀⠀⠈⠙⠛⠛⠉⠁⠀⠀⠿⠃⠀⠀⠀⠀⠙⠛⣿⣓⣶⣦⣤⣤⡄⠀⠀⠀⠀⣷⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣤⣤⣄⠀⠀⠀⠀⣀⠤⡤⡄⡀⠀⠂⠀⣶⣆⣀⡀⠀⠀⠀⠉⠉⠛⠓⠛⠃⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣸⠏⡏⠛⢝⣧⠀⠀⣿⠏⠉⠑⠫⣝⡇⠀⠀⡿⡟⠻⠟⣟⣧⡀⠠⣾⣿⠷⢶⣦⣄⠀⠀⢠⡾⠯⣿⣆⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣿⢆⡃⠀⡠⡟⡄⠀⡧⠃⠀⠀⠀⠠⡇⠀⠀⣿⡇⠀⠀⠩⡏⡇⠀⣿⣿⠀⠀⠉⢻⣷⡄⢿⡇⠀⠸⣿⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠣⣕⢟⣛⠟⣧⡇⠀⣻⣏⣆⣢⣔⠋⠁⠀⠀⠛⠿⠀⠀⠀⠃⠃⠀⢻⡿⠀⠀⠀⠈⣿⢿⠈⠛⠿⠟⢹⣷⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣀⡀⠀⠉⣁⡮⡿⠁⠀⠈⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠀⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠈⠃⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠑⠭⠭⠿⠛⠓⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠢⡄⠀⡆⢀⠀⠀⠀⠀⡄⠀⠀⢀⡠⠄⠄⠄⡀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠟⠛⠛⢿⡆⠀⠀⠀⠯⠋⠀⠀⠩⣿⠀⠀⢀⢾⠇⠁⣀⣥⠶⠓⠻⢯⡲⡌⡱⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡁⠀⠀⠀⡸⣿⠀⠀⠀⣄⠀⠀⠀⠈⣮⠢⠀⣮⠏⠀⢨⣯⣧⣆⣒⣨⣡⣯⠏⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠈⠙⠦⣤⡤⠟⢝⡄⠀⠀⠧⠅⠀⠀⠀⣟⡄⡟⠅⠀⠀⠀⡏⣇⠈⠙⠓⠓⠁⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⢟⡅⠀⠀⠘⡇⠀⠀⠀⠈⠿⠃⠀⠀⠀⠀⠉⠻⣿⣦⣤⣤⣔⣯⡍⠁⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⡶⣄⢀⠀⠀⢀⡟⡑⠁⠀⠀⠀⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠋⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠋⠭⠬⠋⠋⠉⠀⠀⠀⠀⠀⠀⠀⢀⡀⡀⡀⠀⠀⠀⠀⠀⢀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠲⡦⡀⠀⠀⢀⡷⠋⣴⠃⠁⠁⡇⠻⣄⠀⠀⠀⣸⢸⠹⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⡦⣰⠏⠁⠀⢿⣀⢀⣴⠇⠀⠈⢯⣆⡦⣯⡋⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣽⠋⠀⠀⠀⠑⠛⠋⠁⠀⠀⠀⠀⠀⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⢯⠁⠀⠀⠀⢠⡆⠀⠀⠀⡄⠀⠀⠀⣾⡿⠿⠧⢿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⠀⠀⠀⣿⡏⠀⠀⠀⣿⡆⠀⠀⣿⣷⠁⡰⠿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠯⣿⣆⡀⣖⡟⠀⠀⠀⢹⣿⡿⠇⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠀⠀⠀⠀⠸⢧⠀⠀⠀⠀⠀⠀⠀⠀
+
+
+
+
+
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠞⣋⠉⣿⣯⣿⢿⣖⠦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠿⣶⣾⣿⣾⣿⣹⣿⣶⣿⣿⣾⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣧⣰⣿⣿⣿⣿⣿⣿⡿⠿⠿⣿⣿⡟⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠟⣠⣿⠟⠋⠉⠀⠈⠀⠀⠀⠀⠘⣿⣧⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⠀⠀⠀⢀⡀⠀⠀⣀⡀⠀⣾⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⡏⠀⢻⣯⡽⢿⡄⠘⢿⡯⠵⢻⣟⡋⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⠼⣧⠀⠉⠀⠀⠀⠁⠀⠀⠀⠀⢨⣿⢳⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢌⢧⣬⠇⠀⠀⠀⠸⠛⠂⠘⠆⢎⡴⣻⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠉⣿⡆⠀⠀⢾⣯⢿⣗⣀⣼⣹⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠸⡟⠀⠀⠀⠟⢲⣶⠶⣿⠍⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⠰⡇⠀⠀⠀⠴⢺⣿⣤⢿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣾⣿⣿⣿⡆⢧⡀⠀⢀⣀⣼⣿⣟⡇⢿⣷⣶⣤⣄⣀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣀⣴⣶⣿⣿⣿⣿⣿⣿⣿⣷⠀⠳⣄⠀⠉⢿⣿⣿⠇⠸⣿⣿⣿⣿⣿⣿⣷⣦⣄⡀⠀
+⠀⢀⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡷⠆⠙⢦⣀⣨⠗⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠀
+⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣠⣤⣀⣉⠀⠀⡀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆
+⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⢁⣼⠿⢿⣿⣿⣿⠲⠶⠶⠯⢤⣠⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇
+⠀⡿⣿⣿⣿⣿⣿⣿⣿⡟⣰⢹⣁⡀⠈⠙⣻⣿⣍⣉⣙⣒⣻⠓⢾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏
+⠀⣷⣾⣿⣿⣿⣿⣿⣿⠁⡇⠀⠉⡀⠙⢿⣿⣿⡧⠤⠤⠭⠭⣌⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+⢀⣿⣿⣿⣿⣿⣿⣿⣿⡟⠁⠀⠀⣇⣤⣾⣿⣿⣗⠒⠒⠲⣶⠦⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnn
+Traceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnn
+Traceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
+packages\tensorflow\python\platform\self_check.py", line 87, in preload_check
+    ctypes.WinDLL(build_info.cudnn_dll_name)
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\ctypes\__init__.py", line 347, in __init__
+self._handle = _dlopen(self._name, mode)
+OSError: [WinError 126] This specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+from tensorflow.python import *
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+from tensorflow.python import pywrap_tensorflow
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 30, in <module>
+self_check.preload_check()
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\platform\self_check.py", line 97, in preload_check
+% (build_info.cudnn_dll_name, build_info.cudnn_version_number))
+ImportError: Could not find 'cudnn64_6.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Note that installing cuDNN is a separate step from installing CUDA, and this DLL is often found in a different directory from the CUDA DLLs. You may install the necessary DLL by downloading cuDNN 6 from this URL: https://developer.nvidia.com/cudnnTraceback (most recent call last):
+  File "C:\Users\Froilan\Anaconda3\envs\tensorflow-gpu\lib\site-
